@@ -79,6 +79,3 @@ class Comment(models.Model):
         self.save()
 
 
-Comment.objects.create(commentUser=User.objects)
-
-
